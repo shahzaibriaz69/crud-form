@@ -38,7 +38,7 @@
 
             <div class="input-field">
                 <label>Gender</label>
-                <select>
+                <select class="selectbox">
                     <option>Select</option>
                     <option>Male</option>
                     <option>Female</option>
@@ -69,8 +69,8 @@
                 <p>Agree to terms and conditions</p>
             </div>
 
-            <div class="input-field">
-                <input type="sumbit" value="Register" class="btn">
+            <div class="btn">
+                <button>Register</button>
             </div>
         </div>
     </div>

@@ -45,3 +45,31 @@ body {
   margin-right: 10px;
   font-size: 18px;
 }
+
+.input-field input {
+  width: 60%;
+  outline: none;
+  border: 2px solid burlywood;
+  font-size: 15px;
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+
+.input-field textarea {
+  width: 60%;
+  outline: none;
+  font-size: 15px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 2px solid burlywood;
+  resize: none;
+}
+
+.input-field .selectbox {
+  position: relative;
+  width: 60%;
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 2px solid burlywood;
+  outline: none;
+}
