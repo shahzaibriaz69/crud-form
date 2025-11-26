@@ -37,7 +37,12 @@
 
             <div class="input-field">
                 <label>Gender</label>
-                <input type="text" class="input">
+                <select>
+                    <option>Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
             </div>
 
             <div class="input-field">
@@ -52,9 +57,22 @@
 
             <div class="input-field">
                 <label>Address</label>
-                <input type="text" class="input">
+                <textarea></textarea>
+            </div>
+
+            <div class="input-field-terms">
+                <label class="check">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Agree to terms and conditions</p>
+            </div>
+
+            <div class="input-field">
+                <input type="sumbit" value="Register" class="btn">
             </div>
         </div>
+    </div>
 
     </div>
 </body>
