@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Curd</title>
 </head>
 
@@ -60,7 +61,7 @@
                 <textarea></textarea>
             </div>
 
-            <div class="input-field-terms">
+            <div class="input-field terms">
                 <label class="check">
                     <input type="checkbox">
                     <span class="checkmark"></span>
