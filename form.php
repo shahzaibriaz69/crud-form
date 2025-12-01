@@ -61,7 +61,7 @@
                 <textarea></textarea>
             </div>
 
-            <div class="input-field terms">
+            <div class="input-field-terms">
                 <label class="check">
                     <input type="checkbox">
                     <span class="checkmark"></span>
