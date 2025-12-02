@@ -122,3 +122,40 @@ button:hover {
   background-color: #8b6b3f;
   transition: 0.4s ease-in;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .input-field {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .input-field label {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .input-field input,
+  .input-field textarea,
+  .input-field .selectbox {
+    width: 100%;
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+}
